@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <span class="logoimagen">
+         <img src="../Images/Logo.png" rel="stylesheet" width="150px" height="150px"/>
+        </span>
+        <nav class="header__menu">
+         <div id="carrito">
+             <button>
+                 <i class="fas fa-cart-arrow-down"></i></a>
+              
+              </button>
+          </div>
+            
+         <ul id="menu-navegacion">
+             <li><a href="./Contacto.html">Contacto</a></li>
+             <li><a href="./Como-comprar.html">Como comprar</a></li>
+             <li><a href="./Productos.html">Productos</a></li>
+                 <ul class="desplegable">
+                     <li><a href="./Productos.html#numero">Número</a></li>
+                     <li><a href="./Productos.html#helio">Helio</a></li>
+                     <li><a href="./Productos.html#platinado">Platinado</a></li>
+                 </ul>
+             <li><a href="./Galeria.html">Galeria</a></li>
+             <li><a href="../Index.html">Home</a></li> 
+         </ul>
+        </nav>
+       
+    </header>
+    <main>
+        
+        <form action="/ruta-destino " method="get" enctype="">
+            <fieldset>
+                <legend> Elementos de formulario</legend>
+        
+                <input type="text" name="userName" placeholder="Nombre" required>
+                <input type="tel" name="Phone" placeholder="Celular" required>
+                <input type="email" name="email" placeholder="Ingresa tu email" required>
+                
+                <!-- Checkbox -->
+                <h4>¿Como nos conociste?</h4>
+                <label for="code">Instagram</label>
+                <input type="checkbox" name="hobbies" id="code" value="code">
+                <label for="friends">Amigos</label>
+                <input type="checkbox" name="hobbies" id="Friends" value="Friends">
+                <label for="face">Facebook</label>
+                <input type="checkbox" name="hobbies" id="face" value="face">
+                <label for="google">Google</label>
+                <input type="checkbox" name="hobbies" id="google" value="google"><br>
+
+                <br>
+                <textarea name="message" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+
+                <br>
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+         </form>
+
+    </main>
+
+    <footer>
+
+        <div class="container_footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="../Images/logo2.png"/>
+                </div>
+                <div class="terminos">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis fugit officia dolores voluptatum! Tenetur labore corporis suscipit quibusdam qui, eum architecto possimus, cumque pariatur vero inventore, nemo distinctio ut.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                 <h2>Compañia</h2>
+                 <a href="../Index.html">Home</a>
+                 <a href="./Productos.html">Productos</a>
+                 <a href="./Galeria.html">Galeria</a>
+                 <a href="./Como-comprar.html">Como comprar</a>
+                 <a href="./Contacto.html">Contacto</a>
+            </div>
+            <div class="iconos">
+                <h2>Sigamos conectados</h2>
+                <a href=""class="logomapa"><i class="fa-solid fa-location-dot"></i>Ubicación</a>
+                <a href=""class="logoinsta"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href=""class="logocelu"><i class="fas fa-phone"></i>Celular</a>
+            </div>
+            <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="terminos">
+            <span>Terminos y condiciones</span> <br>
+            <span>Boton de arrepentimiento</span><br>
+            <span>Nuestros Locales</span> 
+        </div>
+    </footer>
+</body>
+</html>

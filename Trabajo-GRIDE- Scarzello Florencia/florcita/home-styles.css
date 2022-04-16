@@ -1,0 +1,212 @@
+*{  margin: 0px; 
+    padding: 0; 
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logowpp{   /*se mantiene fijo el logo de wpp aunque el costumer scrolle*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fa-whatsapp {   /*el logo de wpp se corre del margen aplicando el ancho y el alto*/
+    width: 50%;
+    height: 50px;
+}
+
+.logoimagen{ 
+   align-self: flex-start ;
+   margin-left: 7%;
+  
+}
+
+.header__menu {
+    background-color: #b2c0c1; /*modifica el bloque donde esta el logo y el menu*/
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    margin-bottom: 10px;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in;
+}
+
+header .header__menu ul li:hover{
+    background-color: #94a7a8
+}
+
+.menu-navegacion{
+display: flex;
+list-style: none;
+margin-left: 200px;
+text-transform: uppercase;
+font-weight: 600;
+
+}
+
+#carrito{
+    margin-right: 7%;
+}
+
+ /*saco el subrayado predeterminado en el menu*/
+a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+  }
+
+.menu-navegacion>li{
+    
+ margin-left: 20px;
+ font-weight: 300;
+ border-radius: 5px;
+ padding: 0.5rem;
+}
+
+.desplegable{
+        position: relative;
+       
+}
+
+.desplegable ul{
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 9px;
+    border-radius: 5px;
+    background-color: #b2c0c1; 
+    flex-direction: column;
+    
+  }
+
+.desplegable ul li{
+    border-radius: 5px;
+    padding: 3px;
+   
+}
+
+.desplegable:hover > ul{
+    display: flex;
+    
+}
+
+/*### TERMINA HEADER ###*/
+
+/*### MAIN  ###*/
+
+main{
+    margin-top: 100px;
+    text-align: center;
+  
+}
+
+.home__category--image:hover{
+    transform: scale( 1.15);
+    
+}
+ 
+.home__mainContainer section.home__categoriesContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 95%;
+    margin: 4rem auto;
+    background-color: rgb(232, 218, 218);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .home__mainContainer section.home__categoriesContainer .home__category--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home__mainContainer
+  section.home__categoriesContainer
+  .home__category--image:hover {
+  color: rgb(97, 87, 87);
+  background: rgba(69, 66, 66, 0.3);
+  width: 100%;
+  padding: 3rem 0;
+}
+
+
+/*footer*/
+footer{
+    margin-top: 30px;
+    background-color:beige;    /*le agrego el logo al footer cambiando sus colores para que sea una vista limpia*/
+    padding: 10px;
+  
+}
+
+.logo img{  
+    width: 100px;
+    height: 100px;
+}
+
+.box__footer {
+    padding: 10px;
+}
+
+.box__footer h2{
+    padding: 5px;
+}
+
+.box__footer a {
+    margin-left: 50px;
+}
+
+.iconos h2{
+    padding: 5px;
+}
+
+.iconos a {
+    margin-left: 50px;
+}
+
+.terminos {
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .home__mainContainer section.home__categoriesContainer {
+        flex-wrap: wrap;
+      }
+    .home__mainContainer section.home__categoriesContainer .home__category--image {
+        width: 100%;
+    }
+    .home__mainContainer section.home__categoriesContainer .home__category--image img {
+        width: 100%;
+    }
+    .box__footer a {
+        margin: auto;
+        padding: 8px;
+    }
+    .box__footer--enlaces {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .home__mainContainer section.home__categoriesContainer {
+        flex-wrap: wrap;
+      }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1220px) {
+    
+}
+
+@media screen and (max-width: 1220px) {
+
+}

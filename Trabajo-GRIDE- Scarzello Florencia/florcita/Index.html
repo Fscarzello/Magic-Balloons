@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Ballons</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./home-styles.css">
+</head>
+<!-- En el header voy a enfocarme en el logo y en el menu hamburguesa, el logo lo desarrolle en canva y el menu hamburguesa lo saque de la 
+plataforma fontawsome con el codigo copiado que brinda la pagina-->
+   <header>
+       <nav class="header__menu">
+            <span class="logoimagen">
+                <img src="Images/Logo.png" rel="stylesheet" width="100px" height="100px"/>
+            </span>
+           <ul class="menu-navegacion">
+               <li><a href="Index.html">Home</a></li> 
+               <li><a href="./Pages/Galeria.html">Galeria</a></li>
+               <li class="desplegable">
+                   <a href="./Pages/Productos.html">Productos</a>
+                   <ul class="items__desplegables">
+                       <li><a href="./Pages/Productos.html#numero">Número</a></li>
+                       <li><a href="./Pages/Productos.html#helio">Helio</a></li>
+                       <li><a href="./Pages/Productos.html#platinado">Platinado</a></li>
+                   </ul>
+                </li>
+               <li><a href="./Pages/Como-comprar.html">Como comprar</a></li>
+               <li><a href="./Pages/Contacto.html">Contacto</a></li>
+            </ul>
+            <div id="carrito">
+                <button>
+                   <i class="fas fa-cart-arrow-down"></i>
+                 </button>
+             </div>
+       </nav>
+   </header>
+    <main class="home__mainContainer">  
+
+        <section>
+            <img src="./Images/Capture4.PNG" alt="capture4"  height="600">
+        </section>
+
+        <section>
+            <h2>Favoritos</h2>
+        </section>
+
+        <section class="home__categoriesContainer">
+          <article class="home__category--image" id="category__image1">
+            <div class="filter"></div>
+            <img src="./Images/Numero.jpg" class="home__category--link" alt= "Globo Numerico" height="280">
+          </article>
+          <article class="home__category--image" id="category__image2">
+            <div class="filter"></div>
+            <img src="./Images/R (2).png" class="home__category--link" alt="Globo Platinado" height="280">
+          </article>
+          <article class="home__category--image" id="category__image3">
+            <div class="filter"></div>
+            <img src="./Images/Globo con helio.jpg" class="home__category--link" alt="Globo con helio" height="280"> 
+          </article>
+          <article class="home__category--image" id="category__image4">
+            <div class="filter"></div>
+            <img src="./Images/Globo Meta°3.jpg" class="home__category--link" alt="Globo con helio" height="280"> 
+          </article>
+    
+       
+        </section>
+
+        <!-- Nombre la clase de los elementos para poder usarlos en css a la hora de editar los iconos. En el footer agrego los elementos i donde saque el codigo por la plataforma fondawesome, los signos que quiero agregar para que el costumer tenga acceso a otras plataformas-->
+    
+    </main>
+    
+    <footer>
+
+        <div class="container_footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="Images/logo2.png"/>
+                </div>
+                <div class="terminos">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis fugit officia dolores voluptatum! Tenetur labore corporis suscipit quibusdam qui, eum architecto possimus, cumque pariatur vero inventore, nemo distinctio ut.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                 <h2>Compañia</h2>
+                 <div class="box__footer--enlaces">
+                    <a href="../Index.html">Home</a>
+                    <a href="./Productos.html">Productos</a>
+                    <a href="./Galeria.html">Galeria</a>
+                    <a href="./Como-comprar.html">Como comprar</a>
+                    <a href="./Contacto.html">Contacto</a>
+                 </div>
+            </div>
+            <div class="iconos">
+                <h2>Sigamos conectados</h2>
+                <a href=""class="logomapa"><i class="fa-solid fa-location-dot"></i>Ubicación</a>
+                <a href=""class="logoinsta"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href=""class="logocelu"><i class="fas fa-phone"></i>Celular</a>
+            </div>
+            <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="terminos">
+            <span>Terminos y condiciones</span> <br>
+            <span>Boton de arrepentimiento</span><br>
+            <span>Nuestros Locales</span> 
+        </div>
+    </footer>
+</body>
+</html>

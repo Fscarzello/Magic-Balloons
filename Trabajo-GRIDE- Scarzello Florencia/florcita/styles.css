@@ -1,0 +1,403 @@
+*{  margin: 0px; 
+    padding: 0; 
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.logowpp{   /*se mantiene fijo el logo de wpp aunque el costumer scrolle*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fa-whatsapp {   /*el logo de wpp se corre del margen aplicando el ancho y el alto*/
+    width: 50%;
+    height: 50px;
+}
+
+.logoimagen{ 
+   align-self: flex-start ;
+   margin-left: 7%;
+  
+}
+
+
+
+.header__menu {
+    background-color: #b2c0c1; /*modifica el bloque donde esta el logo y el menu*/
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    margin-bottom: 10px;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in;
+}
+
+header .header__menu ul li:hover{
+    background-color: #94a7a8
+}
+
+
+.menu-navegacion{
+display: flex;
+list-style: none;
+margin-left: 200px;
+text-transform: uppercase;
+font-weight: 600;
+
+}
+
+#carrito{
+    margin-right: 7%;
+ 
+
+}
+
+ /*saco el subrayado predeterminado en el menu*/
+a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+  }
+
+
+
+.menu-navegacion>li{
+    
+ margin-left: 20px;
+ font-weight: 300;
+ border-radius: 5px;
+ padding: 0.5rem;
+}
+
+.desplegable{
+        position: relative;
+       
+}
+
+
+.desplegable ul{
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 9px;
+    border-radius: 5px;
+    background-color: #b2c0c1; 
+    flex-direction: column;
+    
+  }
+.desplegable ul li{
+    border-radius: 5px;
+    padding: 3px;
+   
+}
+
+
+.desplegable:hover > ul{
+    display: flex;
+    
+}
+
+
+/*### TERMINA HEADER ###*/
+
+
+
+/*### MAIN  ###*/
+
+main{
+    margin-top: 100px;
+    text-align: center;
+  
+}
+
+.home__category--image:hover{
+    transform: scale( 1.15);
+    
+}
+ 
+.home__mainContainer section.home__categoriesContainer {
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 95%;
+    margin: 4rem auto;
+    background-color: rgb(232, 218, 218);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .home__mainContainer section.home__categoriesContainer .home__category--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .home__mainContainer
+  section.home__categoriesContainer
+  .home__category--image:hover {
+  color: rgb(97, 87, 87);
+  background: rgba(69, 66, 66, 0.3);
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/*galeria*/
+
+.proyecto{
+    margin-top: 100px;
+
+}
+
+.galeria__fav{
+    margin-top: 11%;
+}
+
+
+.galeria__arte{
+    padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  height: 30%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-rows: 40px repeat(1, 1fr);
+}
+
+.gallery__section--grid {
+    text-align: center;
+    font-size: 35px;
+    min-height: 100vh;
+    margin: 2rem 0;
+    padding: 4rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 40% repeat(2, 30%);
+    grid-template-areas: 
+    "título título título"
+    "lateral item2 item3"
+    "lateral item4 item5";
+  }
+
+  .titulo__galeria{
+      padding-bottom: 20px;
+  }
+
+  #item1_galeria {
+    grid-area: lateral;
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+  }
+  
+  #item2_galeria{
+    grid-area: item2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #item3_galeria {
+    grid-area: item3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #item4_galeria {
+    grid-area: item4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #item5_galeria{
+    grid-area: item5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+.gallery__grid .gallery__section--grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* BOTON QUE TE LLEVA ARRIBA*/
+  
+  .gallery__topButton {
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    color: gray;
+    display: flex;
+    font-size: 3rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+  }
+
+
+/*##### CONTACTO ####*/
+
+.contacto__titulo{
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+.contact__mainContainer {
+    min-height: 90vh;
+    display: grid;
+    align-items: center;
+}
+
+.contacto__conocer {
+    margin-top: 30px;
+    /* text-align: center; */
+}
+
+.contacto__conocer div{
+    display: flex;
+    justify-content: center;
+    /* padding: 0; */
+    /* margin: 0; */
+    margin: auto;
+}
+
+.contacto__conocer--input{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.contact__mainContainer .contact__form {
+
+display: grid;
+
+/* justify-content: center; */
+
+align-items: center;
+
+margin: auto;
+
+width: 50%;
+}
+
+.contact__mainContainer .contact__form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form input {
+    height: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form textarea {
+    padding: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"] {
+    background-color: grey;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"]:hover {
+    background-color: white;
+    color: rgb(70, 70, 70);
+    border: 1px solid rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"] {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    transition: all .5s ease-in;
+
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"]:hover {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    cursor: pointer;
+}
+
+.contact__form--buttonsContainer{
+    margin-bottom: 30%;
+}
+
+/*footer*/
+footer{
+    margin-top: 30px;
+    background-color:beige;    /*le agrego el logo al footer cambiando sus colores para que sea una vista limpia*/
+    padding: 10px;
+  
+}
+
+.logo img{  
+    width: 100px;
+    height: 100px;
+}
+
+.box__footer {
+    padding: 10px;
+}
+
+.box__footer h2{
+    padding: 5px;
+}
+
+.box__footer a {
+    margin-left: 50px;
+}
+
+.iconos h2{
+    padding: 5px;
+}
+
+.iconos a {
+    margin-left: 50px;
+}
+
+.terminos {
+    padding-top: 20px;
+    text-align: center;
+}

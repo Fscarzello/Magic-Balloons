@@ -1,0 +1,103 @@
+*{margin: 0; padding: 0; box-sizing:border-box;}
+
+header{
+    background-color: #b2c0c1; /*modifica el bloque donde esta el logo y el menu*/
+}
+
+.logowpp{   /*se mantiene fijo el logo de wpp aunque el costumer scrolle*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fa-whatsapp {   /*el logo de wpp se corre del margen aplicando el ancho y el alto*/
+    width: 50px;
+    height: 50px;
+}
+
+.logoimagen{   
+    margin: 10px 15px 15px 100px;
+}
+
+.header__menu ul{   /*desactive los puntos de los items*/
+    list-style: none;
+}
+
+#menu-navegacion {
+    margin-right: 190px;
+    margin-top: -85px;
+}
+
+#menu-navegacion>li{
+    float: right;
+    margin-left: 10px;
+}
+.desplegable li{
+    display: none;
+
+}
+
+#carrito {
+    margin-left: -110px;
+    float: right ;
+    width: 140px;
+    padding-left: 10px;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+  
+}
+ 
+
+/*galeria*/
+
+.proyecto{
+    margin-top: 100px;
+
+}
+
+section{
+    margin-top: 100px;
+   text-align: center;
+}
+
+/*le agrego el logo al footer cambiando sus colores para que sea una vista limpia*/
+
+footer{
+    margin-top: 30px;
+    background-color:beige;
+    padding: 10px;
+  
+}
+
+.logo img{  
+    width: 100px;
+    height: 100px;
+}
+
+.box__footer {
+    padding: 10px;
+}
+
+.box__footer h2{
+    padding: 5px;
+}
+
+.box__footer a {
+    margin-left: 50px;
+}
+
+.iconos h2{
+    padding: 5px;
+}
+
+.iconos a {
+    margin-left: 50px;
+}
+
+.terminos {
+    padding-top: 20px;
+    text-align: center;
+}
