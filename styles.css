@@ -19,6 +19,7 @@
 .logoimagen{ 
    align-self: flex-start ;
    margin-left: 7%;
+   transform: skewX(20deg);
   
 }
 
@@ -38,6 +39,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: box-shadow 0.5s ease-in;
+
 }
 
 header .menu_bar{
@@ -46,7 +48,7 @@ header .menu_bar{
 
 
 header .header__menu ul li:hover{
-    background-color: #94a7a8
+    background-color: #adbdbd
 }
 
 
@@ -136,7 +138,7 @@ a {
         position: fixed;
         flex-direction: column;
         margin-left: 0;
-        background: #c1cbcc;
+        background-image: linear-gradient(to right,  #afc0c1, rgb(230, 230, 224));
         left: 0;
         bottom: 0;
         top: 100px;
@@ -177,7 +179,7 @@ body .home__mainContainer section.home__categoriesContainer {
     padding: 3rem;
     width: 100%;
     margin: 2rem auto;
-    background-color: rgb(232, 218, 218);
+    background-image: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   }
 
@@ -325,6 +327,7 @@ body .home__mainContainer section.home__categoriesContainer {
     justify-content: center;
     align-items: center;
     width: auto;
+    
   }
 
   #carrito{
@@ -366,6 +369,10 @@ main{
     display: none;
 }
  
+.section1{
+    margin-bottom: 60px;
+}
+
 .home__categoriesContainer {
     display: flex;
     height: 350px;
@@ -383,6 +390,7 @@ main{
     align-items: center;
     height: 100%;
     width: 100%;
+    background-image:linear-gradient(to bottom, rgb(232, 218, 218) , rgb(173, 164, 164));
   }
 
 
