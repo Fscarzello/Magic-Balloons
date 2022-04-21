@@ -1,0 +1,5 @@
+git init --> inicia un repositorio de git en la carpeta en la cual estas parada.
+git branch --> muestra las ramas que tenes, indicandote con un asterisco y color verde, la rama en la que estas trabajando actualmente.
+git status --> te muestra la rama en que estas parada, y si hay cambios hechos, sea que estos cambios esten untracked (git no sabe de ellos)
+o staged (git sabe de ellos).
+git 

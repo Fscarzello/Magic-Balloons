@@ -19,9 +19,10 @@
 .logoimagen{ 
    align-self: flex-start ;
    margin-left: 7%;
-   transform: skewX(20deg);
+
   
 }
+
 
 
 
@@ -30,8 +31,7 @@
     height: 100px;
     width: 100%;
     display: flex;
-    position:fixed;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     top: 0;
     justify-content: space-between;
     align-items: center;
@@ -60,6 +60,7 @@ list-style: none;
 margin-left: 200px;
 text-transform: uppercase;
 font-weight: 600;
+text-decoration-line: none;
 
 }
 
@@ -73,10 +74,12 @@ header .header__menu .header__closeMenu {
   }
 
 #carrito{
-    margin-right: 7%;
- 
+    padding: 2%;
+
 
 }
+
+
 
  /*saco el subrayado predeterminado en el menu*/
 a {
@@ -196,7 +199,9 @@ body .home__mainContainer section.home__categoriesContainer {
       margin: auto;
   }
 
-}
+} 
+
+
 
 @media screen and (max-width: 320px ){
     .menu-navegacion>li{
@@ -242,7 +247,7 @@ body .home__mainContainer section.home__categoriesContainer {
     }
 
  }
-@media screen and (max-width: 600px ){
+@media screen and (max-width: 769px ){
     .desplegable ul{
         margin-top: -25%;
        
@@ -289,10 +294,23 @@ body .home__mainContainer section.home__categoriesContainer {
     }
 
     #carrito{
+        display: none;
         margin-right: 0%;
         margin-top: -10%;
      
     
+    }
+
+    .carrito2{
+        display: none;
+    }
+
+    .d-flex .form-control{
+        display: none;
+
+    }
+    .d-flex .btn{
+        display: none;
     }
 
     main .section2{
@@ -336,6 +354,20 @@ body .home__mainContainer section.home__categoriesContainer {
      top: 15px;
 
   }
+
+  #carouselExampleControls .carousel-inner .carousel-item img{
+
+    width: 150%;
+    height: 150%;
+
+  }
+  
+  #carouselExampleControls .carousel-inner .carousel-item1 img{
+
+    width: 250%;
+    height: 250%;
+
+  }
   
     
 }
@@ -354,7 +386,7 @@ body .home__mainContainer section.home__categoriesContainer {
 /*### MAIN  ###*/
 
 main{
-    margin-top: 100px;
+    /* margin-top: 25px; */
     text-align: center;
   
 }
@@ -484,6 +516,13 @@ main{
     object-fit: cover;
   }
 
+.pt-12, .py-12 {
+    padding-top: 6rem !important;
+}
+
+.card-lg .card-body, .card-lg .card-footer {
+    padding: 2rem;
+}
 
   /* BOTON QUE TE LLEVA ARRIBA*/
   

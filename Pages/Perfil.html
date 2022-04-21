@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../font-v1.0/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+     
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #b2c0c1 ;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="../Images/Logo.png" rel="stylesheet" width="100px" height="100px"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+    
+    
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Home</a>
+                  </li> 
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./Productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./Productos.html">Número</a></li>
+                      <li><a class="dropdown-item" href="./Productos.html">Helio</a></li>
+                      <li><a class="dropdown-item" href="./Productos.html">Platinado</a></li>
+                    </ul>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Galeria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Galeria</a>
+                      </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Como-comprar.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Como comprar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contacto.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Contacto</a>
+                  </li>
+                  
+                </ul>
+            
+                <form class="d-flex" id="d-none d-md-block">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Aquí" >
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+    
+                <div id="carrito">
+                    <button>
+                       <i class="fas fa-cart-arrow-down"></i>
+                  
+                     </button>
+                 </div>
+    
+                 <div class="carrito2">
+                    <button>
+                     <i class="fas fa-user-circle"></i>
+                    </button>
+                 </div>
+              </div>
+            
+            </div>
+        </nav>
+           
+        
+       </header>
+
+       <main>
+
+        <section class="py-12" >
+            <div class="container LoginRegisterContainer" >
+                <div class="row col-12 col-md-6" style="margin:auto">
+                    <div class="card card-lg mb-10 mb-md-0">
+                        <div class="card-body">
+                            </h3 class="mb-7"> Ya tengo cuenta</h3>
+                             <form method="POST" action="/login/process" _lpchecked="1">
+                                <div class="row">
+                                    <div class= "col-12 form-group">
+                                           <input name="login_email" class=form-control form-control-sm" id="loginEmail"
+                                            type="email" placeholder="Ingresá tu e-mail *">
+                                    </div>
+                                    <div class=" col-12 form-group">
+                                        <label class="sr-only" for="loginPassword"> Contraseña * </label>
+                                        <input name= "login_password" class="form-control form-control-sm" id="loginPassword"
+                                        type="password" placeholder="Ingresá tu contraseña *">
+
+                                    </div>
+
+                                    <div class="col-12 col-md-auto">
+                                        <div class="form-group">
+                                           <a class="font-size-sm text-reset" data-toggle="modal" rel="nofollow">
+                                             ¿Olvidaste tu contraseña?</a>
+                                         </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <button class="btn btn-sm btn-primary btnLogin" type="submit">
+                                         Ingresa </button>
+                                     </div>
+                                     <div class="col-12">
+                                        <hr>
+                                     </div>
+                                     <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 d-flex" >
+                                        <a class="navbar-brand" href="#"> <img src="../Images/Capture5.PNG" rel="stylesheet" width="200px" height="60px"/></a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 d-flex
+                                    justify-content-lg-end justify-content-xs-center" >
+                                        <a class="navbar-brand" href="#"> <img src="../Images/Capture6.PNG" rel="stylesheet" width="200px" height="65px"/></a>
+                                    </div>  
+                                </div>
+                            </form>
+                        </div>
+                    </div>    
+                </div>
+                <div class="row col-12 col-md-6" style="margin:auto">
+                    
+                        <div class="card body">
+                            <h3 class="mb-7">Crear cuenta</h3>
+                            <form method="POST" action="/createaccount/process" id="hdnReturnURL2" name="ReturnURL" value="account/account-personal-info">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="registerFirstName">Nombre * </label>
+                                        <input name="createAccount-firstname" class="form-control form-control-sm" id="registerFirstName" type="text" placeholder="Ingresá tu nombre *">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="registerLastName">
+                                    Apellido *
+                                    </label>
+                                    <input name="createAccount_lastname" class="form-control form-control-sm" id="registerLastName" type="text" placeholder="Ingresá tu apellido *" oninvalid="validateRequiredInput(this, 'El apellido es requerido');" required="">
+                                </div>
+                                <div class="col-12">
+                                     <div class="form-group">
+                                       <label class="sr-only" for="registerEmail">Email * </label>
+                                       <input name="createAccount_email" class="form-control form-control-sm" id="registerEmail" type="email" placeholder="Ingresá tu e-mail *" pattern="[a-zA-Z0-9_-]+([.][a-zA-Z0-9_-]+)*@[a-zA-Z0-9_-]+([.][a-zA-Z0-9_-]+)*[.][a-zA-Z]{1,5}" oninvalid="validateRequiredInput(this, 'El email es requerido');" required="">
+                                     </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+
+                                    <div class="form-group">
+                                    <label class="sr-only" for="registerPassword">
+                                    Contraseña *
+                                    </label>
+                                    <input name="createAccount_password" class="form-control form-control-sm" id="registerPassword" type="password" placeholder="Ingresá una contraseña *" oninvalid="validateRequiredInput(this, 'La contraseña es requerida');" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABKRJREFUWAnNl0tsVGUUxzvTTlslZUaCloZHY6BRFkp9sDBuqgINpaBp02dIDImwKDG6ICQ8jBYlhg0rxUBYEALTpulMgBlqOqHRDSikJkZdGG0CRqAGUuwDovQ1/s7NPTffnTu3zMxGvuT2vP7n8Z3vu+dOi4r+5xUoJH8sFquamZmpTqfTVeIfCARGQ6HQH83NzaP5xsu5gL6+vuVzc3NdJN1Kkhd8Ev1MMYni4uJjra2tt3wwLvUjCxgYGFg8Pj7+MV5dPOUub3/hX0zHIpFId0NDw6Q/jO4tZOzv76+Znp6+AOb5TBw7/YduWC2Hr4J/IhOD/GswGHy7vb39tyw2S+VbAC1/ZXZ29hKoiOE8RrIvaPE5WvyjoS8CX8sRvYPufYpZYtjGS0pKNoD/wdA5bNYCCLaMYMMEWq5IEn8ZDof3P6ql9pF9jp8cma6bFLGeIv5ShdISZUzKzqPIVnISp3l20caTJsaPtwvc3dPTIx06ziZkkyvY0FnoW5l+ng7guAWnpAI5w4MkP6yy0GQy+dTU1JToGm19sqKi4kBjY+PftmwRYn1ErEOq4+i2tLW1DagsNGgKNv+p6tj595nJxUbyOIF38AwipoSfnJyMqZ9SfD8jxlWV5+fnu5VX6iqgt7d3NcFeUiN0n8FbLEOoGkwdgY90dnbu7OjoeE94jG9wd1aZePRp5AOqw+9VMM+qLNRVABXKkLEWzn8S/FtbdAhnuVQE7LdVafBPq04pMYawO0OJ+6XHZkFcBQA0J1xKgyhlB0EChEWGX8RulsgjvOjEBu+5V+icWOSoFawuVwEordluG28oSCmXSs55SGSCHiXhmDzC25ghMHGbdwhJr6sAdpnyQl0FYIyoEX5CeYOuNHg/NhvGiUUxVgfV2VUAxjtqgPecp9oKoE4sNnbX9HcVgMH8nD5nAoWnKM/5ZmKyySRdq3pCmDncR4DxOwVC64eHh0OGLOcur1Vey46xUZ3IcVl5oa4OlJaWXgQwJwZyhUdGRjqE14VtSnk/mokhxnawiwUvsZmsX5u+rgKamprGMDoA5sKhRCLxpDowSpsJ8vpCj2AUPzg4uIiNfKIyNMkH6Z4hF3k+RgTYz6vVAEiKq2bsniZIC0nTtvMVMwBzoBT9tKkTHp8Ak1V8dTrOE+NgJs7VATESTH5WnVAgfHUqlXK6oHpJEI1G9zEZH/Du16leqHyS0UXBNKmeOMf5NvyislJPB8RAFz4g8IuwofLy8k319fUP1EEouw7L7mC3kUTO1nn3sb02MTFxFpsz87FfJuaH4pu5fF+reDz+DEfxkI44Q0ScSbyOpDGe1RqMBN08o+ha0L0JdeKi/6msrGwj98uZMeon1AGaSj+elr9LwK9IkO33n8cN7Hl2vp1N3PcYbUXOBbDz9bwV1/wCmXoS3+B128OPD/l2LLg8l9APXVlZKZfzfDY7ehlQv0PPQDez6zW5JJdYOXdAwHK2dGIv7GH4YtHJIvEOvvunLCHPPzl3QOLKTkl0hPbKaDUvlTU988xtwfMqQBPQ3m/4mf0yBVlDCSr/CRW0CipAMnGzb9XU1NSRvIX7kSgo++Pg9B8wltxxbHKPZgAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: pointer;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+
+                                    <div class="form-group">
+                                    <label class="sr-only" for="registerPasswordConfirm">
+                                    Repita su contraseña *
+                                    </label>
+                                    <input name="createAccount_repeatPassword" class="form-control form-control-sm" id="registerPasswordConfirm" type="password" placeholder="Repetí tu contraseña *" oninvalid="validateRequiredInput(this, 'Debe repetir la contraseña');" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABKRJREFUWAnNl0tsVGUUxzvTTlslZUaCloZHY6BRFkp9sDBuqgINpaBp02dIDImwKDG6ICQ8jBYlhg0rxUBYEALTpulMgBlqOqHRDSikJkZdGG0CRqAGUuwDovQ1/s7NPTffnTu3zMxGvuT2vP7n8Z3vu+dOi4r+5xUoJH8sFquamZmpTqfTVeIfCARGQ6HQH83NzaP5xsu5gL6+vuVzc3NdJN1Kkhd8Ev1MMYni4uJjra2tt3wwLvUjCxgYGFg8Pj7+MV5dPOUub3/hX0zHIpFId0NDw6Q/jO4tZOzv76+Znp6+AOb5TBw7/YduWC2Hr4J/IhOD/GswGHy7vb39tyw2S+VbAC1/ZXZ29hKoiOE8RrIvaPE5WvyjoS8CX8sRvYPufYpZYtjGS0pKNoD/wdA5bNYCCLaMYMMEWq5IEn8ZDof3P6ql9pF9jp8cma6bFLGeIv5ShdISZUzKzqPIVnISp3l20caTJsaPtwvc3dPTIx06ziZkkyvY0FnoW5l+ng7guAWnpAI5w4MkP6yy0GQy+dTU1JToGm19sqKi4kBjY+PftmwRYn1ErEOq4+i2tLW1DagsNGgKNv+p6tj595nJxUbyOIF38AwipoSfnJyMqZ9SfD8jxlWV5+fnu5VX6iqgt7d3NcFeUiN0n8FbLEOoGkwdgY90dnbu7OjoeE94jG9wd1aZePRp5AOqw+9VMM+qLNRVABXKkLEWzn8S/FtbdAhnuVQE7LdVafBPq04pMYawO0OJ+6XHZkFcBQA0J1xKgyhlB0EChEWGX8RulsgjvOjEBu+5V+icWOSoFawuVwEordluG28oSCmXSs55SGSCHiXhmDzC25ghMHGbdwhJr6sAdpnyQl0FYIyoEX5CeYOuNHg/NhvGiUUxVgfV2VUAxjtqgPecp9oKoE4sNnbX9HcVgMH8nD5nAoWnKM/5ZmKyySRdq3pCmDncR4DxOwVC64eHh0OGLOcur1Vey46xUZ3IcVl5oa4OlJaWXgQwJwZyhUdGRjqE14VtSnk/mokhxnawiwUvsZmsX5u+rgKamprGMDoA5sKhRCLxpDowSpsJ8vpCj2AUPzg4uIiNfKIyNMkH6Z4hF3k+RgTYz6vVAEiKq2bsniZIC0nTtvMVMwBzoBT9tKkTHp8Ak1V8dTrOE+NgJs7VATESTH5WnVAgfHUqlXK6oHpJEI1G9zEZH/Du16leqHyS0UXBNKmeOMf5NvyislJPB8RAFz4g8IuwofLy8k319fUP1EEouw7L7mC3kUTO1nn3sb02MTFxFpsz87FfJuaH4pu5fF+reDz+DEfxkI44Q0ScSbyOpDGe1RqMBN08o+ha0L0JdeKi/6msrGwj98uZMeon1AGaSj+elr9LwK9IkO33n8cN7Hl2vp1N3PcYbUXOBbDz9bwV1/wCmXoS3+B128OPD/l2LLg8l9APXVlZKZfzfDY7ehlQv0PPQDez6zW5JJdYOXdAwHK2dGIv7GH4YtHJIvEOvvunLCHPPzl3QOLKTkl0hPbKaDUvlTU988xtwfMqQBPQ3m/4mf0yBVlDCSr/CRW0CipAMnGzb9XU1NSRvIX7kSgo++Pg9B8wltxxbHKPZgAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-auto">
+
+                                    <div class="form-group">
+                                          <div class="custom-control custom-checkbox">
+                                              <input name="createAccount_terms" class="custom-control-input" id="registerTerms" type="checkbox" oninvalid="validateRequiredInput(this, 'Debe aceptar los términos y condiciones');" required="">
+                                              <label class="custom-control-label" for="registerTerms">
+                                                  Acepto los <a href="/content/terminos-y-condiciones" class="text-pynk" target="_blank">términos y condiciones</a>
+                                               </label>
+                                          </div>
+                                     </div>
+                                </div>
+
+                                <div class="col-12">
+
+                                    <button class="btn btn-sm btn-primary btnCreateAccount" type="submit">
+                                       Confirmar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+
+       </main>
+     
+
+
+
+
+       <footer>
+
+        <div class="container_footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="../Images/logo2.png"/>
+                </div>
+            </div>
+
+            
+
+            <div class="container-fluid text-center">
+                <div class="container">
+                    <div class="row">
+                        <p class="lead text-success border col-sm-12 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste fugiat omnis a laudantium nesciunt cupiditate quo recusandae tenetur facere nulla consequuntur culpa similique possimus ex, in tempore itaque consectetur.</p>
+                        
+                    </div>
+                    <div class="box__footer" id="row">
+                        <h2>Compañia</h2>
+                        <a href="../Index.html">Home</a>
+                        <a href="./Productos.html">Productos</a>
+                        <a href="./Galeria.html">Galeria</a>
+                        <a href="./Como-comprar.html">Como comprar</a>
+                        <a href="./Contacto.html">Contacto</a>
+                   </div>
+                   <div class="iconos">
+                       <h2>Sigamos conectados</h2>
+                       <a href=""class="logomapa"><i class="fa-solid fa-location-dot"></i>Ubicación</a>
+                       <a href=""class="logoinsta"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                       <a href=""class="logocelu"><i class="fas fa-phone"></i>Celular</a>
+                   </div>
+                   <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+               </div>
+       
+               <div class="terminos">
+                   <span>Terminos y condiciones</span> <br>
+                   <span>Boton de arrepentimiento</span><br>
+                   <span>Nuestros Locales</span> 
+               </div>
+            </div>
+        </div>
+
+            
+            
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../menu.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
