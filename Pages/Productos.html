@@ -12,62 +12,59 @@
 </head>
 
 <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #b2c0c1 ;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="../Images/Logo.png" rel="stylesheet" width="100px" height="100px"/></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./Productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./Productos.html#numero">Numero</a></li>
-                  <li><a class="dropdown-item" href="./Productos.html#helio">Helio</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./Productos.html#platinado">Platinado</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Como-comprar.html">Como comprar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #b2c0c1 ;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="../Images/Logo.png" rel="stylesheet" width="100px" height="100px"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../Index.html"><span class="icon-home3"></span>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Productos.html"><span class="price-tags"></span>Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Galeria.html"><span class="images"></span>Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Como-comprar.html"><span class="pencil2"></span>Como comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contacto.html"><span class="bubbles"></span>Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
           <div id="carrito">
             <button>
                <i class="fas fa-cart-arrow-down"></i>    
              </button>
          </div>
          <div class="login">
-          <a href="./Perfil.html">
-            <i class="fas fa-user-circle"></i>
-          </a>
+            <a href="./Perfil.html">
+             <i class="fas fa-user-circle"></i>
+            </a>
+         </div>
         </div>
-        </div>
-      </nav>     
-    </header>
-    <main>
-        <section>
-            <h2>Favoritos</h2>
-    </section>
+      
 
+      </div>
+    </nav>    
+    
+ </header>
+
+  <main class="home__mainContainer">
+        <section class="fav">
+            <h2>Favoritos</h2>
+          </section>
+
+        
     <section class="home__categoriesContainer">
 
       <article class="home__category--image" id="category__image1">
@@ -93,89 +90,471 @@
    
     </section>
 
-        <section>
+        <section >
             
             <h2> Nuestros Productos</h2>
             <h3 id="numero">Globo Numérico</h3>
-            <img src="../Images/Numero.jpg" alt= "Globo Numerico" width="350" height="350">
-            <h4>$800 c/u </h4>
-            <img src="../Images/Globo N°3.jpg" alt=" Globo N°3"width="350" height="350">
-            <h4>$900</h4>
-            <img src="../Images/Globo N°1.jpg" alt=" Globo N°1"width="350" height="350">
-            <h4>$800</h4>
-            <img src="../Images/Globo N°2.jpg" alt=" Globo N°2"width="350" height="350">
-            <h4>$800</h4>
-            
-            <h3 id="platinado">Globo platinado</h3>
-            <img src="../Images/R (2).png" alt="Globo Platinado" width="350" height="350">
-            <h4>$1300 c/u </h4>
-            <img src="../Images/Globo Meta°1.jpg" alt="Globo Meta°1" width="350" height="350">
-            <h4>$1300 c/u </h4>
-            <img src="../Images/Globo Meta°2.jpg" alt="Globo Meta°2" width="350" height="350">
-            <h4>$1300 c/u </h4>
-            <img src="../Images/Globo Meta°3.jpg" alt="Globo Meta°3" width="350" height="350">
-            <h4>$1600 c/u </h4>
-
-            <h3 id="helio">Globo con helio</h3>
-            <img src="../Images/Globo con helio.jpg" alt="Globo con helio" width="350" height="350">
-            <h4>$2000 c/u </h4>
-            <img src="../Images/Globo Hel°1.jpg" alt="Globo Hel°1" width="350" height="350">
-            <h4>$2000 c/u </h4>
-            <img src="../Images/Globo Hel°2.jpg" alt="Globo Hel°2" width="200" height="350">
-            <h4>$1900 c/u </h4>
-            <img src="../Images/Globo Hel°3.jpg" alt="Globo Hel°3" width="350" height="350">
-            <h4>$1900 c/u </h4>
-        </section>
-    </main>
-    <div class="gallery__topButton">
-        <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
-    </div>
-    
-    <footer>
-
-        <div class="container_footer">
-            <div class="box__footer">
-                <div class="logo">
-                    <img src="../Images/logo2.png"/>
-                </div>
-            </div>
-
-            
-
-            <div class="container-fluid text-center">
-                <div class="container">
-                    <div class="row">
-                        <p class="lead text-success border col-sm-12 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste fugiat omnis a laudantium nesciunt cupiditate quo recusandae tenetur facere nulla consequuntur culpa similique possimus ex, in tempore itaque consectetur.</p>
-                        
+          <div id="products-main">
+            <div class="row p-2">
+              <div class="card col-xl-4 col-lg-12 p-4">
+                  <img src="../Images/Numero.jpg" class="card-img-top" alt="Globo Numerico">
+                  <div class="card-body">
+                      <p class="card-title">Globo Numerico</p>
+                      <p class="card-title">$800</p>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Comprar
+                      </button>
+                  </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <p class="modal-title" id="exampleModalLabel"></p>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              Un globito para vos
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                          
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="row p-2">
+                <div class="card col-xl-4 col-lg-12 p-4">
+                    <img src="../Images/Globo N°3.jpg" class="card-img-top" alt="Globo Numerico">
+                    <div class="card-body">
+                        <p class="card-title">Globo Numerico 2</p>
+                        <p class="card-title">$900</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Comprar
+                        </button>
                     </div>
-                    <div class="box__footer" id="row">
-                        <h2>Compañia</h2>
-                        <a href="../Index.html">Home</a>
-                        <a href="./Productos.html">Productos</a>
-                        <a href="./Galeria.html">Galeria</a>
-                        <a href="./Como-comprar.html">Como comprar</a>
-                        <a href="./Contacto.html">Contacto</a>
-                   </div>
-                   <div class="iconos">
-                       <h2>Sigamos conectados</h2>
-                       <a href=""class="logomapa"><i class="fa-solid fa-location-dot"></i>Ubicación</a>
-                       <a href=""class="logoinsta"><i class="fa-brands fa-instagram"></i>Instagram</a>
-                       <a href=""class="logocelu"><i class="fas fa-phone"></i>Celular</a>
-                   </div>
-                   <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
-               </div>
-       
-               <div class="terminos">
-                   <span>Terminos y condiciones</span> <br>
-                   <span>Boton de arrepentimiento</span><br>
-                   <span>Nuestros Locales</span> 
-               </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="modal-title" id="exampleModalLabel"></p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Un globito para vos
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row p-2">
+                  <div class="card col-xl-4 col-lg-12 p-4">
+                      <img src="../Images/Globo N°1.jpg" class="card-img-top" alt="Globo Numerico">
+                      <div class="card-body">
+                          <p class="card-title">Globo Numerico 3</p>
+                          <p class="card-title">$1000</p>
+                          <!-- Button trigger modal -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Comprar
+                          </button>
+                      </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <p class="modal-title" id="exampleModalLabel"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  Un globito para vos
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+
+                  <div class="row p-2">
+                    <div class="card col-xl-4 col-lg-12 p-4">
+                        <img src="../Images/Globo N°2.jpg" class="card-img-top " alt="Globo Numerico">
+                        <div class="card-body">
+                            <p class="card-title">Globo Numerico 4</p>
+                            <p class="card-title">$900</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="exampleModalLabel"></p>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Un globito para vos
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+            
+           
+          
+            <h3 id="platinado">Globo platinado</h3> <br>
+
+            <div class="row p-2">
+              <div class="card col-xl-4 col-lg-12 p-4">
+                  <img src="../Images/R (2).png" class="card-img-top " alt="Globo Numerico">
+                  <div class="card-body">
+                      <p class="card-title">Globo Platinado 1</p>
+                      <p class="card-title">$900</p>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Comprar
+                      </button>
+                  </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <p class="modal-title" id="exampleModalLabel"></p>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              Un globito para vos
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                          
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="row p-2">
+                <div class="card col-xl-4 col-lg-12 p-4">
+                    <img src="../Images/Globo Meta°1.jpg" class="card-img-top " alt="Globo Numerico">
+                    <div class="card-body">
+                        <p class="card-title">Globo Platinado 2</p>
+                        <p class="card-title">$1600</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="modal-title" id="exampleModalLabel"></p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Un globito para vos
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="row p-2">
+                  <div class="card col-xl-4 col-lg-12 p-4">
+                      <img src="../Images/Globo Meta°2.jpg" class="card-img-top " alt="Globo Numerico">
+                      <div class="card-body">
+                          <p class="card-title">Globo Platinado 3</p>
+                          <p class="card-title">$1600</p>
+                          <!-- Button trigger modal -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Comprar
+                          </button>
+                      </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <p class="modal-title" id="exampleModalLabel"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  Un globito para vos
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row p-2">
+                    <div class="card col-xl-4 col-lg-12 p-4">
+                        <img src="../Images/Globo Meta°3.jpg" class="card-img-top " alt="Globo Numerico">
+                        <div class="card-body">
+                            <p class="card-title">Globo Platinado 4</p>
+                            <p class="card-title">$900</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="exampleModalLabel"></p>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Un globito para vos
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+           
+        
+
+            <h3 id="helio">Globo con helio</h3><br>
+
+            <div class="row p-2">
+              <div class="card col-xl-4 col-lg-12 p-4">
+                  <img src="../Images/Globo con helio.jpg" class="card-img-top " alt="Globo Numerico">
+                  <div class="card-body">
+                      <p class="card-title">Globo Helio 1</p>
+                      <p class="card-title">$1200</p>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Comprar
+                      </button>
+                  </div>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <p class="modal-title" id="exampleModalLabel"></p>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              Un globito para vos
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                          
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row p-2">
+                <div class="card col-xl-4 col-lg-12 p-4">
+                    <img src="../Images/Globo Hel°1.jpg" class="card-img-top " alt="Globo Numerico">
+                    <div class="card-body">
+                        <p class="card-title">Globo Helio 2</p>
+                        <p class="card-title">$1600</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="modal-title" id="exampleModalLabel"></p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Un globito para vos
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+     
+                <div class="row p-2">
+                  <div class="card col-xl-4 col-lg-12 p-4">
+                      <img src="../Images/Globo Hel°2.jpg" class="card-img-top " alt="Globo Numerico">
+                      <div class="card-body">
+                          <p class="card-title">Globo Helio 3</p>
+                          <p class="card-title">$1200</p>
+                          <!-- Button trigger modal -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Comprar
+                          </button>
+                      </div>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <p class="modal-title" id="exampleModalLabel"></p>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  Un globito para vos
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                   
+                  <div class="row p-2">
+                    <div class="card col-xl-4 col-lg-12 p-4">
+                        <img src="../Images/Globo Hel°3.jpg" class="card-img-top " alt="Globo Numerico">
+                        <div class="card-body">
+                            <p class="card-title">Globo Helio 3</p>
+                            <p class="card-title">$1200</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="modal-title" id="exampleModalLabel"></p>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Un globito para vos
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Pagar</button>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+        </section>
+  </main>
+    
+  <div class="gallery__topButton">
+        <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
+  </div>
+    
+  <footer>
+
+
+    <div class="container_footer">
+        <div class="box__footer">
+            <div class="logo">
+                <img src="../Images/logo2.png"/>
             </div>
         </div>
 
-            
-            
-    </footer>
+        
+
+        <div class="container-fluid text-center">
+            <div class="container">
+                <div class="row">
+                    <p class="lead text-success border col-sm-12 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste fugiat omnis a laudantium nesciunt cupiditate quo recusandae tenetur facere nulla consequuntur culpa similique possimus ex, in tempore itaque consectetur.</p>
+                    
+                </div>
+
+                <section class="sectionColor container-fluid">
+                  <div class="container">
+                      <div class="col-12">
+                          <h2>Ubicación</h2>
+                          <div class="boxMap">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9030794231053!2d-58.442100585273494!3d-34.5813188638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5932db5983f%3A0x4ccadea14acd5c06!2sHonduras%205901-5999%2C%20C1414BNK%20CABA!5e0!3m2!1ses-419!2sar!4v1650758414489!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+               
+               <div class="iconos">
+                   <h2>Sigamos conectados</h2>
+                   <div class="container-fluid text-center">
+                    <a href="#" target="_blank"></div><i class="social-icon fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="social-icon fas fa-envelope"></i></a>
+                </div>
+               
+               <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+           </div>
+        </div>
+     </div>
+  
+   <div class="terminos text-center">
+            <div class="container">
+              <div class="row">
+               <span>Terminos y condiciones</span> <br>
+               <h4>Botón de arrepentimiento</h4><br>
+               <p>© Copyright 2022 Florencia Scarzello</p>
+               
+              </div>
+           </div>
+        
+          </div>
+     </div>
+        
+</footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="../menu.js"></script>
 

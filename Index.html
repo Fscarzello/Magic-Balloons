@@ -21,49 +21,47 @@ plataforma fontawsome con el codigo copiado que brinda la pagina-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./Pages/Productos.html" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown">
-                <a class="dropdown-item" href="#">Numero</a>
-                <a class="dropdown-item" href="#">Helios</a>
-                <a class="dropdown-item" href="#">Platinado</a>
-              </div>
+              <a class="nav-link active" aria-current="page" href="./Index.html"><span class="icon-home3"></span>Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Pages/Galeria.html">Galeria</a>
+              <a class="nav-link" href="./Pages/Productos.html"><span class="price-tags"></span>Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Pages/Como-comprar.html">Como comprar</a>
+              <a class="nav-link" href="./Pages/Galeria.html"><span class="images"></span>Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
+              <a class="nav-link" href="./Pages/Como-comprar.html"><span class="pencil2"></span>Como comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/Contacto.html"><span class="bubbles"></span>Contacto</a>
             </li>
           </ul>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
+          <div id="carrito">
+            <button>
+               <i class="fas fa-cart-arrow-down"></i>    
+             </button>
+         </div>
+         <div class="login">
+            <a href="./Pages/Perfil.html">
+             <i class="fas fa-user-circle"></i>
+            </a>
+         </div>
         </div>
-        <div id="carrito">
-          <button>
-             <i class="fas fa-cart-arrow-down"></i>    
-           </button>
-       </div>
-       <div class="login">
-          <a href="./Pages/Perfil.html">
-           <i class="fas fa-user-circle"></i>
-          </a>
-       </div>
+      
+
       </div>
     </nav>    
     
    </header>
+
     <main class="home__mainContainer">  
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+          <div class="carousel-inner">
               <div  class="carousel-item active">
                 <img src="./Images/Capture4.PNG" alt="capture4" width="1290"  height="400px">
               </div>
@@ -83,10 +81,11 @@ plataforma fontawsome con el codigo copiado que brinda la pagina-->
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
 
 
 
-        <section>
+        <section class="fav">
                 <h2>Favoritos</h2>
         </section>
 
@@ -121,6 +120,7 @@ plataforma fontawsome con el codigo copiado que brinda la pagina-->
     
     <footer>
 
+
         <div class="container_footer">
             <div class="box__footer">
                 <div class="logo">
@@ -136,32 +136,44 @@ plataforma fontawsome con el codigo copiado que brinda la pagina-->
                         <p class="lead text-success border col-sm-12 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste fugiat omnis a laudantium nesciunt cupiditate quo recusandae tenetur facere nulla consequuntur culpa similique possimus ex, in tempore itaque consectetur.</p>
                         
                     </div>
-                    <div class="box__footer" id="row">
-                        <h2> Compañia</h2>
-                        <a href="../Index.html">Home</a>
-                        <a href="./Productos.html">Productos</a>
-                        <a href="./Galeria.html">Galeria</a>
-                        <a href="./Como-comprar.html">Como comprar</a>
-                        <a href="./Contacto.html">Contacto</a>
-                   </div>
+
+                    <section class="sectionColor container-fluid">
+                      <div class="container">
+                          <div class="col-12">
+                              <h2>Ubicación</h2>
+                              <div class="boxMap">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9030794231053!2d-58.442100585273494!3d-34.5813188638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5932db5983f%3A0x4ccadea14acd5c06!2sHonduras%205901-5999%2C%20C1414BNK%20CABA!5e0!3m2!1ses-419!2sar!4v1650758414489!5m2!1ses-419!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+                   
                    <div class="iconos">
                        <h2>Sigamos conectados</h2>
-                       <a href=""class="logomapa"><i class="fa-solid fa-location-dot"></i>Ubicación</a>
-                       <a href=""class="logoinsta"><i class="fa-brands fa-instagram"></i>Instagram</a>
-                       <a href=""class="logocelu"><i class="fas fa-phone"></i>Celular</a>
-                   </div>
+                       <div class="container-fluid text-center">
+                        <a href="#" target="_blank"></div><i class="social-icon fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="social-icon fas fa-envelope"></i></a>
+                    </div>
+                   
                    <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
                </div>
-       
-               <div class="terminos">
-                   <span>Terminos y condiciones</span> <br>
-                   <span>Boton de arrepentimiento</span><br>
-                   <span>Nuestros Locales</span> 
-               </div>
             </div>
-        </div>
-
+         </div>
+      
+       <div class="terminos text-center">
+                <div class="container">
+                  <div class="row">
+                   <span>Terminos y condiciones</span> <br>
+                   <h4>Botón de arrepentimiento</h4><br>
+                   <p>© Copyright 2022 Florencia Scarzello</p>
+                   
+                  </div>
+               </div>
             
+              </div>
+         </div>
             
     </footer>
 

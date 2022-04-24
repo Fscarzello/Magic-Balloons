@@ -24,184 +24,187 @@
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-md navbar-light"
-        style="background-color: #b2c0c1"
-      >
+      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #b2c0c1 ;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="../Images/Logo.png"
-              rel="stylesheet"
-              width="100px"
-              height="100px"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <a class="navbar-brand" href="#"> <img src="../Images/Logo.png" rel="stylesheet" width="100px" height="100px"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../Index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="./Productos.html"
-                  id="dropdown"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Productos</a
-                >
-                <div class="dropdown-menu" aria-labelledby="dropdown">
-                  <a class="dropdown-item" href="#">Numero</a>
-                  <a class="dropdown-item" href="#">Helios</a>
-                  <a class="dropdown-item" href="#">Platinado</a>
-                </div>
+                <a class="nav-link active" aria-current="page" href="../Index.html"><span class="icon-home3"></span>Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Galeria.html">Galeria</a>
+                <a class="nav-link" href="./Productos.html"><span class="price-tags"></span>Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Como-comprar.html">Como comprar</a>
+                <a class="nav-link" href="./Galeria.html"><span class="images"></span>Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                <a class="nav-link" href="./Como-comprar.html"><span class="pencil2"></span>Como comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html"><span class="bubbles"></span>Contacto</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+            <div id="carrito">
+              <button>
+                 <i class="fas fa-cart-arrow-down"></i>    
+               </button>
+           </div>
+           <div class="login">
+              <a href="./Perfil.html">
+               <i class="fas fa-user-circle"></i>
+              </a>
+           </div>
           </div>
-          <div id="carrito">
-            <button>
-              <i class="fas fa-cart-arrow-down"></i>
+        
+  
+        </div>
+      </nav>    
+      
+     </header>
+    <main class="comocomprar text-center">
+
+      <main class="home__mainContainer">  
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div  class="carousel-item active">
+                <img src="../Images/Capture4.PNG" alt="capture4" width="1290"  height="400px">
+              </div>
+              <div class="carousel-item">
+                <img src="../Images/Capture.PNG" alt="capture4" height="400px">
+              </div>
+              <div class="carousel-item">
+                <img src="../Images/Capture2.PNG" alt="capture4" height="400px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="login">
-            <a href="./Perfil.html">
-              <i class="fas fa-user-circle"></i>
-            </a>
-          </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <h3>¿Cómo comprar?</h3>
+      </main>
+
+      <section class="comprartitulo">
+            <h3>¿Cómo comprar?</h3>
+      </section>
+
+
+     <section class="pasos">
       <ol>
-        <li>1-Elegí el producto que deseas comprar.</li>
+        <li>Elegí el producto que deseas comprar.</li>
         <li>
-          2-Haz clic en el botón de "Agregar al carrito". Esto agregará el
+          Haz clic en el botón de "Agregar al carrito". Esto agregará el
           producto a tu carrito y te llevará al mismo.
         </li>
         <li>
-          3-Puedes seguir agregando otros productos al carrito o sino haz clic
+          Puedes seguir agregando otros productos al carrito o sino haz clic
           en "Iniciar Compra".
         </li>
-        <li>4-Completá tus datos de contacto y haz clic en "Continuar".</li>
+        <li>Completá tus datos de contacto y haz clic en "Continuar".</li>
         <li>
-          5-Ingresá la dirección a donde deseas recibir el producto. Luego haz
+         Ingresá la dirección a donde deseas recibir el producto. Luego haz
           clic en "Continuar".
         </li>
         <li>
-          6-Seleccioná el método de envío ó entrega que desees y haz clic en
+         Seleccioná el método de envío ó entrega que desees y haz clic en
           "Continuar". Los envíos los realizamos a través de OCA. Podés retirar
           en nuestro locaL
         </li>
         <li>
-          7-Elegí el medio de pago. También puedes seleccionar la opción de "A
+         Elegí el medio de pago. También puedes seleccionar la opción de "A
           convenir". Una vez que hayas elegido el medio de pago, haz clic en
           "Continuar".
         </li>
         <li>
-          8-Finalmente en la página de Confirmación de compra puedes revisar
+         Finalmente en la página de Confirmación de compra puedes revisar
           toda la información de la compra. Luego haz clic en "Continuar".
         </li>
         <li>
-          9-Ahí serás redirigido a otra pantalla para que completes los datos
+         Ahí serás redirigido a otra pantalla para que completes los datos
           sobre la forma de pago elegida. Después de confirmar la compra
           recibirás un correo de nuestra parte, ese no será un comprobante de
           pago.
         </li>
         <li>
-          10-Una vez acreditado el pago, haremos el envío correspondiente de los
+         Una vez acreditado el pago, haremos el envío correspondiente de los
           productos que hayas comprado y podrás hacerles seguimiento a través de
           l apágina o con el código de seguimiento en la plataforma de OCA.
         </li>
       </ol>
+    </section>
     </main>
 
-    <footer>
+    <footer class="footercito">
+
+
       <div class="container_footer">
-        <div class="box__footer">
-          <div class="logo">
-            <img src="../Images/logo2.png" />
-          </div>
-        </div>
-
-        <div class="container-fluid text-center">
-          <div class="container">
-            <div class="row">
-              <p class="lead text-success border col-sm-12">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-                iste fugiat omnis a laudantium nesciunt cupiditate quo
-                recusandae tenetur facere nulla consequuntur culpa similique
-                possimus ex, in tempore itaque consectetur.
-              </p>
-            </div>
-            <div class="box__footer" id="row">
-              <h2>Compañia</h2>
-              <a href="../Index.html">Home</a>
-              <a href="./Productos.html">Productos</a>
-              <a href="./Galeria.html">Galeria</a>
-              <a href="./Como-comprar.html">Como comprar</a>
-              <a href="./Contacto.html">Contacto</a>
-            </div>
-            <div class="iconos">
-              <h2>Sigamos conectados</h2>
-              <a href="" class="logomapa"
-                ><i class="fa-solid fa-location-dot"></i>Ubicación</a
-              >
-              <a href="" class="logoinsta"
-                ><i class="fa-brands fa-instagram"></i>Instagram</a
-              >
-              <a href="" class="logocelu"
-                ><i class="fas fa-phone"></i>Celular</a
-              >
-            </div>
-            <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+          <div class="box__footer">
+              <div class="logo">
+                  <img src="../Images/logo2.png"/>
+              </div>
           </div>
 
-          <div class="terminos">
-            <span>Terminos y condiciones</span> <br />
-            <span>Boton de arrepentimiento</span><br />
-            <span>Nuestros Locales</span>
+          
+
+          <div class="container-fluid text-center">
+              <div class="container">
+                  <div class="row">
+                      <p class="lead text-success border col-sm-12 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste fugiat omnis a laudantium nesciunt cupiditate quo recusandae tenetur facere nulla consequuntur culpa similique possimus ex, in tempore itaque consectetur.</p>
+                      
+                  </div>
+
+                  <section class="sectionColor container-fluid">
+                    <div class="container">
+                        <div class="col-12 text-center">
+                            <h2>Ubicación</h2>
+                            <div class="boxMap text-center">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9030794231053!2d-58.442100585273494!3d-34.5813188638193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5932db5983f%3A0x4ccadea14acd5c06!2sHonduras%205901-5999%2C%20C1414BNK%20CABA!5e0!3m2!1ses-419!2sar!4v1650758414489!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                 
+                 <div class="iconos">
+                     <h2>Sigamos conectados</h2>
+                     <div class="container-fluid text-center">
+                      <a href="#" target="_blank"></div><i class="social-icon fab fa-facebook-f"></i></a>
+                      <a href="#" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+                      <a href="#" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+                      <a href="#" target="_blank"><i class="social-icon fas fa-envelope"></i></a>
+                  </div>
+                 
+                 <a href="" class="logowpp"><i class="fa-brands fa-whatsapp"></i></a>
+             </div>
           </div>
-        </div>
-      </div>
-    </footer>
+       </div>
+    
+     <div class="terminos text-center">
+              <div class="container">
+                <div class="row">
+                 <span>Terminos y condiciones</span> <br>
+                 <h4>Botón de arrepentimiento</h4><br>
+                 <p>© Copyright 2022 Florencia Scarzello</p>
+                 
+                </div>
+             </div>
+          
+            </div>
+       </div>
+          
+  </footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="../menu.js"></script>
     <!-- Bootstrap Scripts -->

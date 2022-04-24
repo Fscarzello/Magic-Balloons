@@ -133,6 +133,9 @@ a {
     margin:0;
     position: fixed;
 }
+.container-fluid{
+    /* display: flex; */
+    margin-left: -30%;}
 }
 
 @media screen and (max-width: 600px ){
@@ -155,7 +158,7 @@ a {
     }
 }
 
-@media screen and (max-width: 600px ){
+@media screen and (max-width: 675px ){
 .menu-navegacion>li{
     
    margin-bottom: 18%;
@@ -163,7 +166,31 @@ a {
     padding: 0.5rem;
     font-size: 15px;
    }
+
+   .home__category--link {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+    padding: 2%;
+   }
 }
+
+@media screen and (max-width: 550px ){
+    .menu-navegacion>li{
+        
+       margin-bottom: 18%;
+        border-radius: 5px;
+        padding: 0.5rem;
+        font-size: 15px;
+       }
+    
+       .home__category--link {
+        width: 190px;
+        height: 190px;
+        margin: auto;
+        padding: 2%;
+       }
+    }
 @media screen and (max-width: 480px ){
     .menu-navegacion>li{      
         margin-bottom: 18%;
@@ -172,19 +199,19 @@ a {
         font-size: 11px;
        }
 
-              
+    
 body .home__mainContainer section.home__categoriesContainer {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:8px;
     height: 2%;
     justify-content: space-evenly;
     padding: 3rem;
-    width: 100%;
+    width: 90%;
     margin: 2rem auto;
     background-image: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  }
+  flex-wrap: wrap;}
 
   body .home__mainContainer section.home__categoriesContainer .home__category--image {
     display: flex;
@@ -193,13 +220,15 @@ body .home__mainContainer section.home__categoriesContainer {
     width: auto;
   }
 
-  .home__category--link{
-      width: 200px;
-      height: 200px;
-      margin: auto;
-  }
+  .home__category--link {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    padding: 2%;
+   }
+}
 
-} 
+
 
 
 
@@ -246,8 +275,10 @@ body .home__mainContainer section.home__categoriesContainer {
 
     }
 
+    
+
  }
-@media screen and (max-width: 769px ){
+@media screen and (max-width: 770px ){
     .desplegable ul{
         margin-top: -25%;
        
@@ -288,6 +319,12 @@ body .home__mainContainer section.home__categoriesContainer {
     
     }
 
+    .home__mainContainer .home__category--image:hover{
+        transform: scale( 1);
+        padding: 6%;
+        
+    }
+
     .menu_bar span{
         float: right;
         font-size: 40px;
@@ -325,7 +362,7 @@ body .home__mainContainer section.home__categoriesContainer {
         display: none;
     }
 
-     
+
        
 .home__mainContainer section.home__categoriesContainer {
     display: grid;
@@ -334,10 +371,11 @@ body .home__mainContainer section.home__categoriesContainer {
     height: 100%;
     justify-content: space-evenly;
     padding: 3rem;
-    width: 100%;
-    margin: 5rem auto;
+    width: 90%;
+    margin: 1rem auto;
     background-color: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
   }
 
   .home__mainContainer section.home__categoriesContainer .home__category--image {
@@ -360,7 +398,7 @@ body .home__mainContainer section.home__categoriesContainer {
     width: 150%;
     height: 150%;
 
-  }
+  padding-bottom: 10%;}
   
   #carouselExampleControls .carousel-inner .carousel-item1 img{
 
@@ -373,6 +411,101 @@ body .home__mainContainer section.home__categoriesContainer {
 }
 
 
+@media screen and (max-width: 660px ){
+ 
+    
+    .col-12 .boxMap{
+
+    width: 50%;
+    height: 50%;
+
+
+    }
+
+    .home__mainContainer .home__category--image:hover{
+        transform: scale( 1);
+        padding: 6%;
+        
+    }
+
+    .menu_bar span{
+        float: right;
+        font-size: 40px;
+    }
+
+    #carrito{
+        display: none;
+        margin-right: 0%;
+        margin-top: -10%;
+     
+    
+    }
+
+    .carrito2{
+        display: none;
+    }
+
+    .d-flex .form-control{
+        display: none;
+
+    }
+    .d-flex .btn{
+        display: none;
+    }
+
+    main .section2{
+        display: block;
+        width: 90%;
+        margin-bottom: 15%;
+        margin-top: 20%;
+
+    }
+   
+    .section1{
+        display: none;
+    }
+
+
+       
+.home__mainContainer section.home__categoriesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 3rem;
+    width: 90%;
+    margin: 5rem auto;
+    background-color: rgb(232, 218, 218);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+  }
+
+  .home__mainContainer section.home__categoriesContainer .home__category--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+}
+  
+
+  #carouselExampleControls .carousel-inner .carousel-item img{
+
+    width: 150%;
+    height: 150%;
+
+  padding-bottom: 10%;}
+  
+  #carouselExampleControls .carousel-inner .carousel-item1 img{
+
+    width: 250%;
+    height: 250%;
+
+  }
+  
+    
+}
 
 
 
@@ -391,6 +524,29 @@ main{
   
 }
 
+.home__mainContainer .fav h2{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #103355;
+    transition: all 300ms ease-in-out;
+    
+    }
+
+.galeria__arte .top{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #103355;
+    transition: all 500ms ease-in-out;
+
+}
+
+.home__mainContainer .fav h2:hover{
+    transform: scale(1.15);
+    }
 
 .home__category--image:hover{
     transform: scale( 1.15);
@@ -422,7 +578,7 @@ main{
     align-items: center;
     height: 100%;
     width: 100%;
-    background-image:linear-gradient(to bottom, rgb(232, 218, 218) , rgb(173, 164, 164));
+    
   }
 
 
@@ -522,6 +678,34 @@ main{
 
 .card-lg .card-body, .card-lg .card-footer {
     padding: 2rem;
+}
+
+
+/* COMO COMPRAR*/
+
+
+.comocomprar {
+    margin-bottom: 3%;
+}
+
+.comocomprar .comprartitulo h3{
+
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #103355;
+    transition: all 500ms ease-in-out;
+
+
+}
+
+.comocomprar .pasos{
+    margin-top: 6%;
+}
+
+.footercito{
+    margin-top: 8%;
 }
 
   /* BOTON QUE TE LLEVA ARRIBA*/
@@ -654,7 +838,7 @@ width: 50%;
 
 /*footer*/
 footer{
-    margin-top: 30px;
+    margin-top: 3%;
     background-color:beige;    /*le agrego el logo al footer cambiando sus colores para que sea una vista limpia*/
     padding: 10px;
   
@@ -678,7 +862,7 @@ footer{
 }
 
 .iconos h2{
-    padding: 5px;
+    padding: 2%;
 }
 
 .iconos a {
@@ -686,6 +870,14 @@ footer{
 }
 
 .terminos {
-    padding-top: 20px;
+    padding-top: 4%;
     text-align: center;
+}
+
+#products-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
