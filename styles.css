@@ -185,13 +185,13 @@ a {
        }
     
        .home__category--link {
-        width: 190px;
-        height: 190px;
+        width: 160px;
+        height: 160px;
         margin: auto;
         padding: 2%;
        }
     }
-@media screen and (max-width: 480px ){
+@media screen and (max-width: 340px ){
     .menu-navegacion>li{      
         margin-bottom: 18%;
         border-radius: 5px;
@@ -211,7 +211,7 @@ body .home__mainContainer section.home__categoriesContainer {
     margin: 2rem auto;
     background-image: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  flex-wrap: wrap;}
+  flex-wrap: wrap;margin-bottom: 20%;}
 
   body .home__mainContainer section.home__categoriesContainer .home__category--image {
     display: flex;
@@ -376,7 +376,7 @@ body .home__mainContainer section.home__categoriesContainer {
     background-color: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     
-  }
+  margin-bottom: 15%;}
 
   .home__mainContainer section.home__categoriesContainer .home__category--image {
     display: flex;
@@ -625,6 +625,7 @@ main{
     "título título título"
     "lateral item2 item3"
     "lateral item4 item5";
+    margin-top: 9%;
   }
 
   .titulo__galeria{
@@ -681,6 +682,11 @@ main{
 }
 
 
+.galeria__arte .top{
+    font-size: 3rem;
+    text-align: center;
+}
+
 /* COMO COMPRAR*/
 
 
@@ -699,13 +705,17 @@ main{
 
 
 }
+.eventos{
+    margin-top: 10%;
+   
+}
 
 .comocomprar .pasos{
     margin-top: 6%;
 }
 
 .footercito{
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
   /* BOTON QUE TE LLEVA ARRIBA*/
@@ -776,7 +786,7 @@ width: 50%;
 .contact__mainContainer .contact__form h2 {
     text-align: center;
     margin-bottom: 1rem;
-}
+transform: scale(1.15);}
 
 .contact__mainContainer .contact__form input {
     height: 2.5rem;
@@ -881,3 +891,12 @@ footer{
     justify-content: center;
     margin: auto;
 }
+
+.nuestrosproductos{
+    margin-bottom: 9%;
+}
+
+.ul{
+    text-decoration: none;
+}
+
