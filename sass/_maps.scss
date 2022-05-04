@@ -1,0 +1,17 @@
+$estilos: (
+  color: red,
+  fontsize: 10rem,
+  espaciado: 2rem,
+);
+
+.fav {
+  color: map-get($estilos, color);
+  font-size: map-get($estilos, fontsize);
+  padding: map-get($estilos, espaciado);
+}
+
+.nuestrosproductos {
+ color: map-get($estilos, color);
+}
+
+

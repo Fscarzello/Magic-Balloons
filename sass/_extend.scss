@@ -1,0 +1,25 @@
+
+
+
+%btn {
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+    margin-right: 4%;
+    margin-top: 6%;
+    color: #FFFFFF;
+  }
+  
+  .btn_success {
+    @extend %btn;
+    background-color: #ced7df;
+  }
+  .btn_alert {
+    @extend %btn;
+    background-color: #ddd5ce;
+  }
+  .btn_cancel {
+    @extend %btn;
+    background-color: #d8c5c6;
+  }
