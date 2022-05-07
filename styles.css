@@ -74,7 +74,7 @@ header .header__menu .header__closeMenu {
   }
 
 #carrito{
-    padding: 2%;
+    padding: 1%;
 
 
 }
@@ -475,7 +475,7 @@ body .home__mainContainer section.home__categoriesContainer {
     justify-content: space-evenly;
     padding: 3rem;
     width: 90%;
-    margin: 5rem auto;
+    /* margin: 5rem auto; */
     background-color: rgb(232, 218, 218);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     
@@ -525,7 +525,7 @@ main{
 }
 
 .home__mainContainer .fav h2{
-    margin-top: 5%;
+    margin-top: 2%;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.5;
@@ -620,7 +620,7 @@ main{
     display: grid;
     grid-template-columns: 40% repeat(2, 30%);
     grid-template-areas: 
-    "título título título"
+    "tÃƒÂ­tulo tÃƒÂ­tulo tÃƒÂ­tulo"
     "lateral item2 item3"
     "lateral item4 item5";
     margin-top: 9%;
@@ -879,6 +879,7 @@ footer{
 .terminos {
     padding-top: 4%;
     text-align: center;
+    font-size: 13px;
 }
 
 #products-main {
@@ -889,8 +890,13 @@ footer{
     margin: auto;
 }
 
-.nuestrosproductos{
-    margin-bottom: 9%;
+.nuestrosproductos h2{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: all 300ms ease-in-out;
 }
 
 .ul{
