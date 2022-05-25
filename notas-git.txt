@@ -1,7 +1,0 @@
-git init --> inicia un repositorio de git en la carpeta en la cual estas parada.
-git branch --> muestra las ramas que tenes, indicandote con un asterisco y color verde, la rama en la que estas trabajando actualmente.
-git status --> te muestra la rama en que estas parada, y si hay cambios hechos, sea que estos cambios esten untracked (git no sabe de ellos)
-o staged (git sabe de ellos).
-git add . --> agrega los archivos modificados, o los cambios hechos, al stage area (listo para commitear)
-git commit -m "Nombre del commit" --> Realiza un commit, lo cual guarda los cambios en el historial de versiones del repositorio.
-git push origin master --> pushea los commits hechos al repositorio remoto (en Github), en este caso a la rama principal, master (puede ser main u otra).
