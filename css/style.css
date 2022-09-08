@@ -5,7 +5,7 @@
   border-radius: 2px;
   margin-right: 4%;
   margin-top: 6%;
-  color: #FFFFFF; }
+  color: #7e1d1d; }
 
 .btn_success {
   background-color: #ced7df; }
@@ -100,8 +100,8 @@ footer {
   footer .box__footer {
     padding: 10px; }
     footer .box__footer .logo img {
-      width: 100px;
-      height: 100px; }
+      width: 150px;
+      height: 190px; }
   footer .iconos h2 {
     padding: 2%; }
     footer .iconos h2 .iconos a {
